@@ -35,9 +35,11 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Developed by{' '}
+          Developed by Yen Wei Tan
+          <br/>
+          © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/yenweitan" target="_blank" rel="noopener noreferrer">
-            Yen Wei Tan
+            Jacobo Martínez
           </a>
         </p>
 

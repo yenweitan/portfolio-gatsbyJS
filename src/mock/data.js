@@ -19,10 +19,15 @@ export const heroData = {
 export const aboutData = {
   img: 'about1cropped.png',
   paragraphOne: 'Hi there!!! 🚀',
-  paragraphTwo: 'My name is Yen Wei from Malaysia. I just graduated with a BS in Software Engineering from University of Central Missouri.',
-  paragraphThree: 'Ever since the later stages of high school, I have always been intrigued and passionate about the rapidly innovating technology; always curious to know the inner workings of a piece of tech or software. Although challenging, I get great satisfaction with problem-solving and technological solutions once hurdled and solved. After attending my first ever programming class in C++ during pre-university, I was marvelled and further fueled to learn more about programming in general and other facets of technology.   ',
-  paragraphFour: 'Since then, my computer science journey has developed from coding, to the various programming competitions I\'ve participated in, and developing full-stack applications encompassing various technologies today. My other interests include IOT, web development, software engineering and hardware technological development with both technical and business side of things.',
-  paragraphFive: 'On a side note, personally I am an avid basketball and NBA fan, and has always been active in various other sports such as soccer, ultimate frisbee and ping pong.',
+  paragraphTwo: 'My name is Yen Wei from Malaysia. I just graduated with a B.S in Software Engineering from University of Central Missouri.',
+  paragraphThree: 'Ever since the later stages of high school, I have always been intrigued and passionate about technological advancements; always curious to know the inner workings of a piece of tech or software. ' + 
+                  'Although challenging, I get great satisfaction with problem-solving and technological solutions once hurdled and solved. '+ 
+                  'After attending my first ever programming class in C++ during pre-university, I was marvelled by it and further fueled to learn more about programming in general and other facets of technology.',
+  paragraphFour: 'Since then, my computer science journey has developed from coding, to the various programming competitions I\'ve participated in, and developing full-stack applications encompassing various technologies today. '+
+                 'My other interests include IOT, web development, software engineering and hardware technological development with both technical and business side of things.',
+  paragraphFive: 'On a side note, personally I am an avid basketball and NBA fan, and has always been active in various other sports such as soccer and ultimate frisbee. '+
+                  'I\'m currently actively seeking opportunies to develop my skills as a developer and engineer, consistently learning new things in tech and within the industry. ' +
+                  'Feel free to contact me!',
   resume: 'https://drive.google.com/file/d/1OnImUdchdcQgiyz2PPGVxoWQZSNHdoDO/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -35,7 +40,7 @@ export const projectsData = [
     info: 'This web app was my senior project team project I worked on with 5 other members. I was developing prototype frontend webpages and appointment interfaces for preliminary testing purposes and the actual web app itself. At later sprints, I then dived into the Spring MVC side of things to encorporate the professor section and done simple testing with TestCafe JS. ',
     info2: 'Technologies used: React, Spring MVC, MySQL',
     url: 'https://github.com/yenweitan/ApptApp',
-    repo: 'https://github.com/yenweitan/ApptApp', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -44,16 +49,16 @@ export const projectsData = [
     info: 'A web app I worked on during my first month of quarantine and transition to online classes during college.',
     info2: 'Technologies used: React, Axios',
     url: 'https://github.com/yenweitan/covid19-tracker-site-react',
-    repo: 'https://github.com/yenweitan/covid19-tracker-site-react', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'https://i.imgur.com/aUcKUQjl.jpg',
+    title: 'JavaFX Chat Application',
+    info: 'A Java based application utilizing multithreading with a server and clients conducting simple chat conversations. ',
+    info2: 'Technologies used: Java, JavaFX, CSS',
+    url: 'https://github.com/yenweitan/javaFX-chatapp',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -71,20 +76,20 @@ export const progressBarData = [
     percentage2: '80',
   },
   {
-    label: 'HTML',
+    label: 'ReactJS',
     percentage: '90',
-    label2: 'CSS',
-    percentage2: '80',
+    label2: 'C# & .NET',
+    percentage2: '70',
   },
 ];
 
 //  ADDITIONAL SKILLS DATA
 export const additionalskillsData = [
   {
-    name: 'ReactJS',
+    name: 'JavaFX',
   },
   {
-    name: 'Firebase',
+    name: 'SQL',
   },
   {
     name: 'GatsbyJS',
@@ -93,34 +98,57 @@ export const additionalskillsData = [
     name: 'Axios',
   },
   {
-    name: 'pewpew skills',
+    name: 'Spring MVC',
   },
   {
-    name: 'SQL',
+    name: 'HTML5',
+  },
+  {
+    name: 'CSS',
+  },
+  {
+    name: 'Selenium',
+  },
+  {
+    name: 'LINUX/UNIX Environments',
+  },
+  {
+    name: 'Algorithms',
+  },
+  {
+    name: 'Linear Algebra',
+  },
+  {
+    name: 'Calculus',
+  },
+  {
+    name: 'REST APIs',
+  },
+  {
+    name: 'MS Office',
+  },
+  {
+    name: 'Project Management',
+  },
+  {
+    name: 'Software Engineering Design Patterns',
+  },
+  {
+    name: 'Agile Methodologies',
   },
   
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'I am open to opportunities! Let me know if you would want to work with me!',
   btn: '',
-  email: '',
+  email: 'yenwei9761@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
     {
       id: uuidv1(),
       name: 'linkedin',
@@ -136,5 +164,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
