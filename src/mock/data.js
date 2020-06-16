@@ -28,7 +28,7 @@ export const aboutData = {
   paragraphFive: 'On a side note, personally I am an avid basketball and NBA fan, and has always been active in various other sports such as soccer and ultimate frisbee. '+
                   'I\'m currently actively seeking opportunies to develop my skills as a developer and engineer, consistently learning new things in tech and within the industry. ' +
                   'Feel free to contact me!',
-  resume: 'https://drive.google.com/file/d/1OnImUdchdcQgiyz2PPGVxoWQZSNHdoDO/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/11nAWJWdcSEcFhqBS_P3rRSBfTpeRSny1/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
