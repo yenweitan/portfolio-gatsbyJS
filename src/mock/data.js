@@ -170,7 +170,7 @@ export const footerData = {
     },
     {
       id: uuidv1(),
-      name: 'blog',
+      name: 'twitter',
       url: 'https://yenwei-blog.netlify.app/',
     },
   ],
