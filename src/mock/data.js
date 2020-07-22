@@ -86,10 +86,19 @@ export const progressBarData = [
 //  ADDITIONAL SKILLS DATA
 export const additionalskillsData = [
   {
+    name: 'Python',
+  },
+  {
     name: 'JavaFX',
   },
   {
     name: 'SQL',
+  },
+  {
+    name: 'Anaconda',
+  },
+  {
+    name: 'Beautiful Soup',
   },
   {
     name: 'GatsbyJS',
