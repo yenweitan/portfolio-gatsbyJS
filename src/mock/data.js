@@ -168,6 +168,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/yenweitan',
     },
+    {
+      id: uuidv1(),
+      name: 'blog',
+      url: 'https://yenwei-blog.netlify.app/',
+    },
   ],
 };
 
