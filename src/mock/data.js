@@ -37,7 +37,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'https://media.giphy.com/media/TLaSNpXVlpqaawvgRp/source.gif',
     title: 'AppointMe',
-    info: 'This web app was my senior project team project I worked on with 5 other members. I was developing prototype frontend webpages and appointment interfaces for preliminary testing purposes and the actual web app itself. At later sprints, I then dived into the Spring MVC side of things to encorporate the professor section and done simple testing with TestCafe JS. ',
+    info: 'This web app was my senior project team project I worked on with 5 other members. I was developing prototype frontend webpages and appointment interfaces for preliminary testing purposes and the actual web app itself. At later sprints, I then dived into the Spring MVC side of things to encorporate the professor section and done basic UI input and query testing with TestCafe JS and Selenium. ',
     info2: 'Technologies used: React, Spring MVC, MySQL',
     url: 'https://github.com/yenweitan/ApptApp',
     repo: '', // if no repo, the button will not show up
