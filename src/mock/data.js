@@ -67,7 +67,7 @@ export const progressBarData = [
     label: 'Java',
     percentage: '90',
     label2: 'C++',
-    percentage2: '70',
+    percentage2: '80',
   },
   {
     label: 'Javascript',
@@ -87,9 +87,6 @@ export const progressBarData = [
 export const additionalskillsData = [
   {
     name: 'Python',
-  },
-  {
-    name: 'JavaFX',
   },
   {
     name: 'SQL',
@@ -122,28 +119,31 @@ export const additionalskillsData = [
     name: 'LINUX/UNIX Environments',
   },
   {
-    name: 'Algorithms',
+    name: 'Algorithm Analysis',
   },
   {
-    name: 'Linear Algebra',
-  },
-  {
-    name: 'Calculus',
+    name: 'Data Structures',
   },
   {
     name: 'REST APIs',
   },
   {
-    name: 'MS Office',
+    name: 'MS Office Suite',
   },
   {
     name: 'Project Management',
+  },
+  {
+    name: 'Atlassian JIRA',
   },
   {
     name: 'Software Engineering Design Patterns',
   },
   {
     name: 'Agile Methodologies',
+  },
+  {
+    name: 'SDLC',
   },
   
 ];
